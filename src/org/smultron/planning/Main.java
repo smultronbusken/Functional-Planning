@@ -20,7 +20,7 @@ public class Main
         List<Condition> goal = new ArrayList<>();
         goal.add(Condition.greaterThan(ExampleFacts.MyNumber, 20,null));
 
-        System.out.println(Planner.BFS(domain, goal));
+        System.out.println(Planner.BFS(domain, goal)); // prints [INCREASE, INCREASE, INCREASE, INCREASE, INCREASE, INCREASE]
 
     }
 }

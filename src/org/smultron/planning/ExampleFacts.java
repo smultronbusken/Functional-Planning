@@ -1,7 +1,6 @@
 package org.smultron.planning;
 
 import org.smultron.planning.facts.Fact;
-import org.smultron.planning.facts.commonfacts.Atom;
 import org.smultron.planning.facts.commonfacts.Number;
 import org.smultron.planning.worldstate.FactDescription;
 import org.smultron.planning.worldstate.FactDescriptionInfo;
